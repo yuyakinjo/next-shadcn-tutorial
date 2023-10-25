@@ -25,7 +25,7 @@
       "outputCapture": "std",
       "cwd": "${workspaceFolder}",
       "runtimeExecutable": "bun",
-      "args": ["run", "dev"]
+      "args": ["dev"]
     },
     {
       "name": "Start JSON Server",
