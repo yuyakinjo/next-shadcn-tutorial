@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": "09481d87-784e-44fd-83c6-db30b55aea68",
+      "title": "Read a book",
+      "completed": false
+    },
+    {
+      "id": "816d4ce4-2db4-410b-a8cd-d49ebc95f7f0",
+      "title": "Read a note",
+      "completed": false
+    },
+    {
+      "id": "8598dbf4-4cbd-4b9b-b6a9-e6f197fef322",
+      "title": "write a note",
+      "completed": false
+    },
+    {
+      "id": "a1b2c3d4-4cbd-4b9b-b6a9-e6f197fef323",
+      "title": "write a note11",
+      "completed": false
+    }
+  ]
+}
