@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "compounds": [
+    {
+      "name": "Next Start",
+      "configurations": ["Start Bun", "Launch Chrome", "Start JSON Server"],
+      "stopAll": true
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Launch Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/",
+      "sourceMapPathOverrides": {
+        "webpack:///*": "${webRoot}/*"
+      }
+    },
+    {
+      "name": "Start Bun",
+      "type": "node",
+      "request": "launch",
+      "outputCapture": "std",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "bun",
+      "args": ["run", "dev"]
+    },
+    {
+      "name": "Start JSON Server",
+      "type": "node",
+      "request": "launch",
+      "outputCapture": "std",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "bun",
+      "args": ["run", "json-server"]
+    }
+  ]
+}
