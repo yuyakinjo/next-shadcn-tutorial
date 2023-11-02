@@ -2,25 +2,25 @@
   "todos": [
     {
       "id": "611a6616-00af-44af-ba89-f3ff3561a4ab",
-      "title": "Buy milk",
+      "title": "Buy",
       "description": "Buy milk from the store",
-      "completed": false
+      "completed": true
     },
     {
       "id": "2cf4fcf9-3db2-4d40-89b8-74ccfbba9c70",
-      "title": "Buy milk1",
+      "title": "Buy",
       "description": "Buy milk from the store",
       "completed": false
     },
     {
       "id": "548a7df1-2dc6-47db-9ad4-2c5c955966d2",
-      "title": "Buy milk2",
+      "title": "Buy",
       "description": "Buy milk from the store",
       "completed": false
     },
     {
       "id": "e12ec346-71e0-41ff-b281-47571536e720",
-      "title": "Buy milk3",
+      "title": "Buy",
       "description": "Buy milk from the store",
       "completed": false
     }
