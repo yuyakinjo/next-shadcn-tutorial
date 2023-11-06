@@ -1,5 +1,6 @@
 import { todos } from '@/data.json';
 import { CompleteCheckbox } from './buttons';
+import EditDialog from './edit-dialog';
 
 const { API_URL } = process.env ?? '';
 
@@ -21,6 +22,7 @@ export default async function Page() {
               <span>{todo.title}</span>
               <p>{todo.description}</p>
             </div>
+            <EditDialog todo={todo} />
           </li>
         ))}
       </ul>
